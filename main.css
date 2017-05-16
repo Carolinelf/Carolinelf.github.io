@@ -1,0 +1,235 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 15, 2017, 2:37:57 PM
+    Author     : carolinefitall
+*/
+
+
+.copyright p {
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    padding: 15px;
+    background-color: #202020;
+    font-size: 12px;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+
+
+.wrap{
+    
+    background-color: #FFFCEB;
+}
+
+
+/*
+.footer {
+  
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}*/
+.logo{
+    
+    
+    width:150px;
+    height:150px;
+    margin:0 auto;
+}
+
+
+.navigation{
+    margin: 0 auto;
+    padding:0;
+    width:100%;
+}
+
+nav ul{
+    
+    
+    overflow: hidden;
+    padding:0;
+    text-align: center;
+    margin:0;
+    transition: max-height 4s;
+    -webkit-transition: max-height 4s;
+    -ms-transition: max-height 4s;
+    -moz-transition: max-height 4s;
+    -o-transition: max-height 4s;
+    
+    
+}
+
+nav ul li {
+    
+    display: inline-block;
+    padding:20px;
+    color:red;
+    font-family: sans-serif;
+    
+}
+
+li a{
+    color:#676769;
+}
+
+nav ul li :hover{
+    
+  color:#CECFD4;
+    
+    
+}
+
+ 
+
+.handle{
+    display:none;
+    width:100%;
+    background-color:#F2F0E3;
+   color:#676769;
+   font-family: sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px 10px;
+    cursor: pointer;
+    
+    
+}
+
+
+@media screen and (max-width:768px){
+    
+    
+
+    
+    
+     nav ul{
+        max-height: 0; 
+        display: none;
+        
+            
+    }
+    
+    .showing{
+        max-height: 20em;
+    }
+    
+    
+    nav ul li{
+        width:100%;
+        box-sizing: border-box;
+        padding:15px;
+    }
+    
+    .handle{
+        display:block;
+    }
+    
+    
+    
+   
+    
+    
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+.container
+    
+    *, *:after, *:before { 
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box; 
+          box-sizing: border-box;
+        
+    
+}
+
+@media screen and (min-width:769px){
+    
+    .showing{
+        display: block !important;
+        
+    }
+    
+    
+}
+
+
+
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+
+
+img {
+  border: 0;
+  display: block;
+  width: 100%;
+}
+
+img  {
+  border: 0;
+  display: block;
+  width: 100%;
+}
+
+.grid {
+	max-width: 69em;
+        height:800px;
+	list-style: none;
+	margin: 30px auto;
+	padding: 1px;
+}
+.grid .item {
+	display: block;
+	float: left;
+	padding: 2px;
+	width: 33%;
+	opacity: 1;
+}
+
+.grid .item  {
+	display: block;
+	float: left;
+	padding: 2px;
+	width: 33%;
+	opacity: 1;
+}
+
+
+@-webkit-keyframes moveUp {
+	0% { }
+	100% { -webkit-transform: translateY(0); opacity: 1; }
+}
+
+@keyframes moveUp {
+	0% { }
+	100% { -webkit-transform: translateY(0); transform: translateY(0); opacity: 1; }
+}
+@media screen and (max-width: 900px) {
+	.grid .item {width: 50%;}
+  .entry {box-shadow: none;}
+  .entry > .grid > .item {width: 50%;}
+}
+
+@media screen and (max-width: 400px) {
+	.grid .item {width: 100%;}
+
+  .entry > .grid > .item {width: 100%;}
+}
+
+
+
