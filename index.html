@@ -6,44 +6,76 @@
 <!--    <meta http-equiv="x-ua-compatible" content="ie=edge">-->
     <title>Home</title>
     <meta name="description" content="scenic capital of New Zealand book here best spots Fly to the limit">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <!-- Place favicon.ico in the root directory -->
     
     <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   
 </head>
 
 <body>
     
+    <div class="wrap">
     
-    <div class="wrapper">
-        
-       
-<header>
-    
-    <div class="intro">
-        
-    <h1>Caroline Fitall <br> <span> Portfolio Gallery </span></h1>
+<div class="logo"><a href="#"><img src="images/mylogo.png" alt="" /></a></div>
    
+    <nav>
+        
+        
+  <ul class="showing">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+        <div class="handle">Menu</div>
+        </nav>
+ 
     </div>
     
-</header>
-        
-        
-        <div class="container">
-            
-  <img src="http://placekitten.com/300/500" alt="kitten"/>
-  <img src="http://placekitten.com/300/500" alt="kitten"/>
-  <img src="http://placekitten.com/300/500" alt="kitten"/>
-  <img src="http://placekitten.com/300/500" alt="kitten"/>
-  
+    
+    
+    
+    
+    
+    <div class="container">
+<div class="grid effect-2" id="grid">
+    <div class="item"><a href="#"><img src="images/ip1.png" alt="" /></a></div>
+    <div class="item"><a href="#"><img src="images/githublogo.png" alt="" /></a></div>
+    <div class="item"><a href="https://codepen.io/Carolinelf/"><img src="images/codepenlogo.png" alt="" /></a></div>
+    <div class="item"><a href="#"><img src="http://goo.gl/Akx3Oh" alt="" /></a></div>
+    <div class="item"><a href="#"><img src="http://goo.gl/oyBrGp" alt="" /></a></div>
+    
+    <div class="item"><a href="#"><img src="http://goo.gl/H9xGFt" alt="" /></a></div>
+    <div class="item"><a href="#"><img src="http://goo.gl/BZ6Uiv" alt="" /></a></div>
+   
 </div>
-        
-        
-
-    
     </div>
+        
+        
+    
+  <div class="copyright">
+            <p>Caroline Fitall Design All Rights Reserved 2017</p>
+        </div>
     
     
-</body>
+        
+          <script>
+        
+      $(document).ready(function(){
+            $('.handle').on('click', function(e){
+                e.preventDefault();
+                $('nav ul').slideToggle();
+            });
+        });
+    </script>﻿
+          </body>
+    
+    
+
+  
+    
+  
 
 </html>
