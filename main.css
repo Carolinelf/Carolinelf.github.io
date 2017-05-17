@@ -9,6 +9,149 @@ and open the template in the editor.
 */
 
 
+.form-container{
+    margin:20px;
+}
+
+.parent {
+  display: flex;
+  padding:30px;
+}
+
+.col {
+  width: 50%;
+  
+  
+}
+
+.col2 p {
+     padding: 40px 0; 
+    color:#865776;
+    
+  font-family: sans-serif;
+  
+  
+}
+
+.col2 h1 {
+    
+    
+     text-align: center;
+    color:#865776;
+    
+  font-family: sans-serif;
+  
+  
+}
+
+
+
+
+
+
+.col2 {
+  width: 50%;
+  top:0;
+  left:0;
+padding:30px;
+}
+
+
+@media screen and (max-width:835px){
+    
+    .parent {
+  display: flex;
+  flex-direction: column;
+}
+    
+    
+  .col {
+  width: 100%;
+  
+}
+
+
+.col2 {
+  width: 100%;
+  
+}
+  
+   .col2 p {
+    margin: 0 auto;
+   
+    color:#865776;
+    
+    
+  font-family: sans-serif;
+  
+  
+}
+
+.col2 h1 {
+    
+    margin:0 auto;
+     text-align: center;
+    color:#865776;
+    
+  font-family: sans-serif;
+  
+  
+}
+ 
+    
+    
+    
+}
+
+
+
+
+
+
+
+.contact {
+  height: 800px;
+  
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+  .contact h1 span {
+    display: block;
+  }
+}
+.contact h2 {
+  letter-spacing: 0.1em;
+  font-size: 1.1em;
+  margin: 0;
+  padding-top: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .contact .text-center {
+    margin-top: 140px;
+  }
+}
+.contact .text-center ul {
+  display: inline-block;
+}
+.contact .text-center ul li {
+  float: left;
+  padding-left: 30px;
+}
+.contact .text-center ul li:first-child {
+  padding-left: 0;
+}
+
+
+
+
+
+
 .copyright p {
     text-align: center;
     margin: 0 auto;
@@ -21,11 +164,11 @@ and open the template in the editor.
 }
 
 
-
+/*
 .wrap{
     
-    background-color: #FFFCEB;
-}
+    background-color: #D9DADB;
+}*/
 
 
 /*
@@ -180,11 +323,15 @@ img {
   width: 100%;
 }
 
-img  {
-  border: 0;
-  display: block;
-  width: 100%;
-}
+/*.git img{
+    width:100%;
+    border: 0;
+ 
+ 
+ 
+}*/
+
+
 
 .grid {
 	max-width: 69em;
@@ -194,14 +341,6 @@ img  {
 	padding: 1px;
 }
 .grid .item {
-	display: block;
-	float: left;
-	padding: 2px;
-	width: 33%;
-	opacity: 1;
-}
-
-.grid .item  {
 	display: block;
 	float: left;
 	padding: 2px;
